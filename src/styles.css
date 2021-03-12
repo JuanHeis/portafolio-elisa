@@ -1,0 +1,11 @@
+.wrapper{
+    max-width: 1110px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+h1::before{
+    content: "¡Hola a todos!";
+    display: block;
+}
