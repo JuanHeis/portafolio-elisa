@@ -187,11 +187,22 @@ h3{
     margin-block-start: 24px;
     margin-inline: 24px;
 }
+form .form__required-input::after{
+    content: " *";
+    color: red;
+}
 form label{
+    font-weight: bold;
     display: block;
     margin-block-end: 8px;
 }
-
+.project{
+    margin-block: 80px;
+}
+.project__img-preview img{
+    display: block;
+    margin: auto;
+}
 form input, form textarea{
     box-sizing: border-box;
     width: 100%;
