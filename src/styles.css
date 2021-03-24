@@ -5,6 +5,12 @@
     --verdecito: #42E2B8;
     --button: 14px;
 }
+.project__img-preview .img{
+    display: block;
+}
+.project__img-preview .img2x{
+    display: none;
+}
 button {
     border-radius: 500px;
     padding-inline: 24px;
@@ -113,6 +119,12 @@ h1::before{
 
 .hero__img{
     margin-top: 16px;
+}
+.hero__img img{
+    display: block;
+    margin: 0 auto;
+    width: 328px;
+    height: 337px;
 }
 
 .button--primary{
