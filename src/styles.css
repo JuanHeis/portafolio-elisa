@@ -5,6 +5,9 @@
     --verdecito: #42E2B8;
     --button: 14px;
 }
+.footer__logo{
+    display: none;
+}
 .project__img-preview .img{
     display: block;
 }
@@ -12,6 +15,7 @@
     display: none;
 }
 button {
+    cursor: pointer;
     border-radius: 500px;
     padding-inline: 24px;
     border: 2px solid black;
@@ -45,6 +49,7 @@ h1{
     justify-content: space-between;
 }
 .icon{
+    cursor: pointer;
     display: inline;
     height: 44px;
     width: 44px;
@@ -108,6 +113,9 @@ h1::before{
 .header{
     display: flex;
     justify-content: space-between;
+}
+.header__menu{
+    display: none;
 }
 .footer__icons .icon-list{
     margin: auto;
@@ -184,6 +192,7 @@ h3{
     margin: 0 auto ;
 }
 .card{
+    margin-block: 40px;
     border: 4px solid transparent;
     border-image-source: linear-gradient(-45deg, hsla(0, 0%, 100%, 0.20) 50%, hsla(0, 0%, 100%, 0.75) 100%); 
     border-image-slice: 5;
