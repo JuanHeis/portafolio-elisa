@@ -1,0 +1,91 @@
+@media (min-width: 720px) {
+    .header__menu{
+        font-size: 14px;
+        font-weight:bold;
+        text-transform: uppercase;
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+    .contact{
+        max-width: 543px;
+        margin: 0 auto;
+    }
+    .header__menu li{
+        transition: .4s;
+        list-style: none;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .header__menu li:hover{
+        cursor: pointer;
+        color: black;
+    }
+    .hero{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .hero__img img{
+        width: 604px;
+        height: 611px;
+        position: relative;
+        top: -100px;
+    }
+    .project__about-image-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .project__about-image-container div+div{
+        align-self: center;
+    }
+    .project__about-image-container{
+        margin-block-start: 80px;
+        margin-block-end: 160px;
+    }
+    .card{
+        text-align: center;
+        margin-block-end: 80px;
+        margin-block-start: 160px;
+    }
+    .reverse-row{
+        flex-direction: row-reverse;
+    }
+    .project{
+        margin-block: 160px;
+    }
+    .project__buttons button{
+        margin-inline-end: 16px;
+        display: inline-block;
+        height: 49px;
+        width: auto;
+    }
+    .project__img-preview .img2x{
+        display: block;
+    }
+    .project__img-preview .img{
+        display: none;
+    }
+    .project__buttons {}
+    blockquote p{
+        font-size: 34px;
+    }
+    blockquote span{
+        font-size: 24px;
+    }
+    .card__container{
+        padding: 80px;
+    }
+    .footer__logo{
+        display: block;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer__text{
+        order: 1;
+    }
+    .footer__icons{
+        order: 2;
+    }
+}
